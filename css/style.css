@@ -1,0 +1,20 @@
+
+table{
+    background-color: #00cc99;
+}
+
+input{
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.btn{
+    color: navajowhite;
+    background-color: purple;
+    width: 6em;
+    height: 3em;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-size: 1em;
+}

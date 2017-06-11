@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javascript/script.js"></script>
+        <title>JavaSript Calculator</title>
+    </head>
+
+    <body>
+        <table>
+            <tr>
+                <td colspan="1"><button class="btn" onclick="reset()">C</button></td>
+                <td colspan="3"><input type="text" id="field"><td> 
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="insertNum(7)">7</button></td>
+                <td><button class="btn" onclick="insertNum(8)">8</button></td> 
+                <td><button class="btn" onclick="insertNum(9)">9</button></tdh>
+                <td><button class="btn" onclick="insertNum('/')">/</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="insertNum(4)">4</button></td>
+                <td><button class="btn" onclick="insertNum(5)">5</button></td>
+                <td><button class="btn" onclick="insertNum(6)">6</button></td>
+                <td><button class="btn" onclick="insertNum('*')">*</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="insertNum(1)">1</button></td>
+                <td><button class="btn" onclick="insertNum(2)">2</button></td>
+                <td><button class="btn" onclick="insertNum(3)">3</button></td>
+                <td><button class="btn" onclick="insertNum('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="btn" onclick="insertNum('.')">.</button></td>
+                <td><button class="btn" onclick="insertNum(0)">0</button></td>
+                <td><button class="btn" onclick="insertNum('=')">=</button></td>
+                <td><button class="btn" onclick="insertNum('+')">+</button></td>
+            </tr>
+        </table>
+    </body>
+</html>    
